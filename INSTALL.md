@@ -1,11 +1,11 @@
-Install
+# Install
 
 	brew cask install homebrew/cask-versions/java8
 	brew install elasticsearch
 	brew install kibana
 
 
-Running
+## Running
 
 Open two new terminal tabs, ideally side by side.
 Enter the following
@@ -21,12 +21,12 @@ logs in the terminal windows.
 You can access elasticsearch from http://localhost:9200/
 You can access kibana from http://localhost:5601/
 
-Generate data from OpenFootball
+## Generate data from plaintext
 
 	 python data.py
 
 
-Publish data to Elasticsearch
+## Publish the data to Elasticsearch
 
 	python publish.py
 
